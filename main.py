@@ -11,7 +11,7 @@ def game():
                 raise ValueError
             break
         except ValueError:
-            print("Enter a whole number from 1 to 49")
+            print("Wprowadź liczbę od 0 do 1000")
 
     min = 0
     max = 1000
